@@ -14,3 +14,33 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Prerequisites
+Make sure you have installed:
+- **Node.js >= 18** ([https://nodejs.org/](https://nodejs.org/))
+- **npm** (comes with Node.js) or **Yarn**
+- Modern browser (Chrome, Firefox, Edge, etc.)
+---
+
+## Install Dependencies
+
+```bash
+npm install
+```
+
+## Configure Environment
+Since there are no sensitive informations included in .env, did not add it to .gitignore
+
+### Update .env with your backend api url
+```bash
+VITE_API_URL=http://localhost/task-management-backend/api/
+```
+
+## Run the Development Server
+```bash
+npm run dev
+```
+
+## Access your Application 
+- Use default [http://](http://localhost:5173/)
