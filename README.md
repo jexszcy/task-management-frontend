@@ -43,4 +43,4 @@ npm run dev
 ```
 
 ## Access your Application 
-- Use default [http://](http://localhost:5173/)
+- Use default [http://localhost:5173/](http://localhost:5173/)
